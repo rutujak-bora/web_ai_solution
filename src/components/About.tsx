@@ -55,7 +55,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 p-8 flex items-center justify-center">
                 <img
-                  src="/image/about.jpeg"
+                  src={`${import.meta.env.BASE_URL}image/about.jpeg`}
                   alt="Rutuja Kawade"
                   className="rounded-xl shadow-2xl object-cover w-full h-full"
                 />
